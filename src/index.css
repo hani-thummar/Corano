@@ -1,12 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* .submenu{
     opacity: 0 ;
     visibility: hidden ;
 } */
- 
-.menu:hover .submenu{
-   
+
+
+
+
+
+
+
+/* .menu:hover .submenu{
+   z-index: 1;
     opacity: 1 ;
     visibility: visible ;
-    /* background-color: red; */
+}
+.submenu:hover .megaMenu{
+    opacity:1;
+    visibility:visible;
+} */
+ /* .submenu{
+    color: rgb(211, 210, 210);
+ } */
+
+ .slick-dots {
+    position: absolute;
+    bottom: 118px !important;
+    /* top: 90%; */
+    left:"10%";
+    display: block;
+    /* width: 100%; */
+    width: 100% !important;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 18px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
